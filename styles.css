@@ -1,0 +1,33 @@
+.title {
+margin: auto;
+text-align: center;
+font-weight: bolder;
+background-color: rgb(167, 199, 231);
+color:white;
+border-style: dotted;
+border-radius: 18%;
+}
+
+ol {
+
+    padding: 20px;
+    margin: 0px;
+    display: flex;;
+    justify-content: center; /* Centers the items inside the list */
+
+}
+ol li {
+    
+  display: inline-block;
+  text-shadow: 1px 1px 3px #181818;
+  text-align: center;
+  padding: 4px 20px;
+  margin: 8px;
+  background: radial-gradient(circle, rgba(146,143,143,1) 16%, rgba(115,114,114,1) 78%);
+  border-radius: 10px;
+  box-shadow: 0px 1px 2.5px 1px #181818;
+}
+ol li a:hover {
+    background: radial-gradient(circle, rgba(113,108,108,1) 16%, rgba(87,86,86,0) 78%);	
+    cursor: pointer;
+}

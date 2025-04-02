@@ -1,0 +1,50 @@
+* {
+font-family: monospace, "sans serif", 'Times New Roman';
+font-size: 14px;
+}
+.typewriter h1 {
+    overflow: hidden;
+    border-right: .10em solid orange;
+    white-space: nowrap;
+    text-align: left;
+    display: inline-block;
+    letter-spacing: .15em;
+    animation: typing 3.5s steps(40,end) 1s forwards, blink-caret .75s step-end 2.5s forwards;
+    width: 0;
+    position: relative;
+}
+body  {
+    background-image: url("https://img.freepik.com/free-photo/concrete-wall-textured-backgrounds-built-structure-concept_53876-14107.jpg?t=st=1743620502~exp=1743624102~hmac=8d6d507540c682df58028ef953bff39e73b99e68bd8e4f22ecb6c13746d1e859&w=900");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+h1 {
+    font-size: 42px;
+}
+h2 {
+    font-size: 22px;
+}
+img {
+    height: 300px;
+    width: auto;
+}
+ol li {
+    padding-bottom: 10px;
+}
+ul {
+    list-style-type: none;
+    padding: 6px;
+    
+}
+
+
