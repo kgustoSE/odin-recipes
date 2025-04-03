@@ -9,7 +9,7 @@ font-size: 14px;
     text-align: left;
     display: inline-block;
     letter-spacing: .15em;
-    animation: typing 3.5s steps(40,end) 1s forwards, blink-caret .75s step-end 2.5s forwards;
+    animation: typing 3.5s steps(40,end) 1s forwards, blink-caret .75s step-end 1.3s forwards;
     width: 0;
     position: relative;
 }
